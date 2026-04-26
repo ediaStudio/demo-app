@@ -66,9 +66,9 @@ const APP_CONFIG = {
   // Place tes screenshots dans /screenshots/ et liste les noms ici
   // Laisser vide affiche des placeholders gris
   screenshots: [
-    // "screenshots/screen1.png",
-    // "screenshots/screen2.png",
-    // "screenshots/screen3.png",
+    "screenshots/screen1.png",
+    "screenshots/screen2.png",
+    "screenshots/screen3.png",
     // "screenshots/screen4.png",
     // "screenshots/screen5.png",
   ],
