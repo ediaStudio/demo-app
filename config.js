@@ -8,7 +8,7 @@ const APP_CONFIG = {
   appName:      "AppName",
   tagline:      "Your App Tagline Here",
   description:  "A short description of what your app does and the main value it brings to users. Keep it simple and clear.",
-  year:         "2025",
+  year:         "2026",
   contactEmail: "contact@yourapp.com",
 
   // ── ICÔNE ────────────────────────────────────────────────
