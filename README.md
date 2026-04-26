@@ -8,8 +8,8 @@ Site vitrine simple et moderne pour une application mobile.
 /
 ├── index.html          ← Page principale (ne pas modifier)
 ├── config.js           ← ✅ FICHIER À MODIFIER
-├── privacy-policy.html ← À créer
-├── terms.html          ← À créer
+├── privacy-policy.html
+├── terms.html          
 ├── app-ads.txt         ← À créer (si tu utilises AdMob)
 ├── assets/
 │   └── icon.png        ← Ton icône d'app (512x512 recommandé)
@@ -38,3 +38,27 @@ Ouvre `config.js` et remplis toutes les informations :
 2. Upload tous les fichiers
 3. Active GitHub Pages dans Settings → Pages
 4. Ton site est en ligne sur `https://tonpseudo.github.io`
+
+### Étape 4 — Lier un nom de domaine custom (optionnel)
+
+**Sur GitHub :**
+1. Ton repo → **Settings → Pages**
+2. Champ **"Custom domain"** → tape `tondomaine.com`
+3. Clique **Save** (GitHub crée un fichier `CNAME` automatiquement)
+
+**Sur Namecheap :**
+1. **Domain List → Manage** → onglet **Advanced DNS**
+2. Supprime les enregistrements existants et ajoute :
+
+| Type | Host | Value |
+|------|------|-------|
+| A Record | @ | 185.199.108.153 |
+| A Record | @ | 185.199.109.153 |
+| A Record | @ | 185.199.110.153 |
+| A Record | @ | 185.199.111.153 |
+| CNAME | www | tonpseudo.github.io |
+
+3. Attends la propagation DNS (15 min à 48h) — vérifie sur **dnschecker.org**
+4. Une fois propagé, retourne sur GitHub → **Settings → Pages** → coche **"Enforce HTTPS"**
+
+Ton site est maintenant accessible sur `https://tondomaine.com` ✅
