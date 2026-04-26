@@ -4,8 +4,6 @@
 
 const APP_CONFIG = {
 
-  basePath: "/demo-app",
-
   // ── INFOS GÉNÉRALES ──────────────────────────────────────
   appName:      "AppName",
   tagline:      "Your App Tagline Here",
